@@ -1,0 +1,1 @@
+This folder contains serverless backend functions for the Internal Portal.\n\n- ensureChangeOrderApprovalDate.js: Entity automation helper that ensures Change Orders marked Approved always receive a client_approval_date.\n- fixChangeOrdersApprovalDates.js: One-time maintenance task to backfill client_approval_date for already-approved Change Orders missing the timestamp.\n
